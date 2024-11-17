@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dcdcdc;
+}
+
+header {
+    text-align: center;
+    background-color: #f67280;
+    padding: 2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#carousel {
+    text-align: center;
+    margin: 1rem;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+    align-items: center;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    width: 400px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #A0D6B4;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem; /* Add space between the text and button */
+}
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.prev {
+    margin-right: 10px; /* Add space between the buttons */
+}
+
+button.next {
+    margin-left: 10px;
+}
+
+#jokes {
+    text-align: center;
+    margin: 3rem 0;
+}
+#joke-text {
+    font-style: italic;
+}
+
+#quiz {
+    text-align: center;
+    margin: 3rem 0;
+    text-align: left;
+}
+
+#joke-btn,
+#quiz-submit {
+    display: block; /* Make the buttons block-level */
+    width: 200px; /* Set a width for the buttons */
+    margin: 2rem auto; /* Center the buttons and give some spacing */
+}
+
+@media (min-width: 768px) {
+    .carousel-images {
+        width: 400px;
+    }
+
+    .carousel-images img {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-images {
+        width: 400px;
+    }
+
+    .carousel-images img {
+        width: 400px;
+    }
+}

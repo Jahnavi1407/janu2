@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Flower Cart!</h1>
+        <p>Fresh flowers and beautiful bouquets.</p>
+    </header>
+
+    <main>
+        <!-- Carousel Section -->
+        <section id="carousel">
+            <h2>Our Best-Selling Flowers</h2>
+            <div class="carousel">
+                <button class="prev">&lt;</button>
+                <div class="carousel-images">
+                    <div class="carousel-item">
+                        <img src="https://assets.winni.in/product/primary/2014/8/39123.jpeg?dpr=1&w=500" alt="Gift 1">
+                        <p class="carousel-description">The Rose speaks of love silently, in a language known only to the Heart</p>
+                      </div>      
+                    <div class="carousel-item">
+                        <img src="https://i0.wp.com/giftsflorist.com/wp-content/uploads/2024/01/tulip8d.jpg?fit=570%2C570&ssl=1" alt="Gift 2">
+                        <p class="carousel-description">Let life be Beautiful like Tulips</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.juneflowers.com/wp-content/uploads/2022/08/Bouquet-of-Sunflower.jpg" alt="Gift 3">
+                        <p class="carousel-description">From time to time we all need someone to remind us of our strengths</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.eflorist.com/assets/products/PZM_/TFL10-2A.jpg?impolicy=hero&impolicy=hero" alt="Gift 4">
+                        <p class="carousel-description">Prettiest flowers for the Prettiest girl...</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.italflorist.com/images/itemVariation/v4_TrueHorizonBouquetDeluxe-21090753540.jpg" alt="Gift 5">
+                        <p class="carousel-description">Like Jasmine, find strength in your Gentleness and Beauty</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1612505704/vendor/6621/catalog/product/2/0/20210204101350_file_601c719ed9539_601c71e677335..jpg" alt="Gift 4">
+                        <p class="carousel-description">Your smile is like these Flowers</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_prodl/products/p-the-ftd-bright-and-beautiful-bouquet-137800-m.jpg" alt="Gift 5">
+                        <p class="carousel-description">Live simply Bloom widly</p>
+                    </div>
+                </div>
+                <button class="next">&gt;</button>
+            </div>            
+        </section>
+
+        <!-- Jokes Section -->
+        <section id="jokes">
+            <h2>Flower-Inspired Jokes</h2>
+            <button id="joke-btn">Get a Joke</button>
+            <p id="joke-display">Click the button to get a joke!</p>
+        </section>
+
+        <!-- Quiz Section -->
+        
+        <section id="quiz">
+            <h2>Flower Quiz</h2>
+            <form id="quiz-form">
+                <!-- Question 1 -->
+                <p>1. What flower symbolizes love?</p>
+                <input type="radio" id="rose" name="flower1" value="rose">
+                <label for="rose">Rose</label><br>
+                <input type="radio" id="sunflower" name="flower1" value="sunflower">
+                <label for="sunflower">Sunflower</label><br>
+                <input type="radio" id="tulip" name="flower1" value="tulip">
+                <label for="tulip">Tulip</label><br>
+        
+                <!-- Question 2 -->
+                <p>2. What flower is known for its ability to bloom in the winter?</p>
+                <input type="radio" id="crocus" name="flower2" value="crocus">
+                <label for="crocus">Crocus</label><br>
+                <input type="radio" id="daisy" name="flower2" value="daisy">
+                <label for="daisy">Daisy</label><br>
+                <input type="radio" id="orchid" name="flower2" value="orchid">
+                <label for="orchid">Orchid</label><br>
+        
+                <!-- Question 3 -->
+                <p>3. What flower is often associated with happiness and warmth?</p>
+                <input type="radio" id="sunflower2" name="flower3" value="sunflower">
+                <label for="sunflower2">Sunflower</label><br>
+                <input type="radio" id="lily" name="flower3" value="lily">
+                <label for="lily">Lily</label><br>
+                <input type="radio" id="daffodil" name="flower3" value="daffodil">
+                <label for="daffodil">Daffodil</label><br>
+        
+                <button type="button" id="quiz-submit">Submit</button>
+            </form>
+            <p id="quiz-result"></p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bloom Boutique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
